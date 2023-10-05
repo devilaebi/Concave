@@ -78,3 +78,4 @@ function resetAnimation() {
 startButton.addEventListener("click", startAnimation);
 resetButton.addEventListener("click", resetAnimation);
 drawMirror();
+// Draw the mirror
