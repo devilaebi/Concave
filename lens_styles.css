@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18vh;
+    flex-direction: column;
+}
+
+.object-dropdown {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#object-select {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.arrow-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 18px;
+    pointer-events: none;
+}
+
+.axis {
+    position: relative;
+    width: 100%;
+    margin-top: 20px; /* Adjust the margin to position the axis as needed */
+}
+
+.axis hr {
+    border: none;
+    border-top: 2px solid rgb(32, 64, 245);
+    width: 100%;
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: column; /* Stack the icons vertically */
+    align-items: center; /* Center icons horizontally */
+    padding: 10px;
+    background-color:white; /* Background color for the top bar */
+}
+
+.lens-icons {
+    display: flex;
+    flex-direction: row; /* Display the icons side by side */
+}
+
+.lens-icon {
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+img {
+    width: 30px;
+    height: auto;
+    margin: 5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.canvas-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+}
+
+
+canvas {
+    border: 2px solid black;
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+/* Add styling for your lens illustration and animations here */

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lens_styles.css">
+    <title>Lens Illustration</title>
+</head>
+<body>
+    <div class="container">
+        <div class="object-dropdown">
+            <select id="object-select">
+                <option value="object1">Pencil</option>
+                <option value="object2">Penguin</option>
+                <option value="object3">Star</option>
+                <option value="object4">Arrow</option>
+                <!-- Add more object options as needed -->
+            </select>
+        </div>
+        <div class="top-bar">
+            <div class="lens-icons">
+                <div id="concave-lens" class="lens-icon">
+                    <img src="images/Converging Lens.png" alt="Concave Lens">
+                </div>
+                <div id="convex-lens" class="lens-icon">
+                    <img src="images/Diverging.png" alt="Convex Lens">
+                </div>
+            </div>
+        </div>        <!-- Add your lens illustration and animations here -->
+    </div>
+    <div class="canvas-container">
+        <canvas id="mirrorCanvas"></canvas>
+        <button id="startAnimation">Start Animation</button>
+        <button id="resetAnimation">Reset</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
